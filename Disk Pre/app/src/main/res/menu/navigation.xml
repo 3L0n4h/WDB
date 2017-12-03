@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_report"
+        android:icon="@drawable/report"
+        android:title="@string/title_report" />
+
+    <item
+        android:id="@+id/navigation_events"
+        android:icon="@drawable/chat"
+        android:title="chat" />
+
+    <item
+        android:id="@+id/navigation_learn"
+        android:icon="@drawable/learn"
+        android:title="@string/title_learn" />
+
+    <item
+        android:id="@+id/navigation_donate"
+        android:icon="@drawable/report"
+        android:title="@string/title_donate" />
+
+</menu>
