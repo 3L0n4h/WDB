@@ -1,0 +1,89 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#282828"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="50dp"
+    tools:context="hci.baranggayapp.Report">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:text="Please provide 3 numbers to contact when emergency occurs" />
+
+
+    <ImageView
+        android:layout_width="200px"
+        android:layout_height="200px"
+        android:layout_gravity="center"
+        android:src="@drawable/medical" />
+
+    <EditText
+        android:id="@+id/txtFirstNum"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="first contact number"
+        android:textColor="#fff"
+        android:textColorHint="#ffffff"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <EditText
+        android:id="@+id/txtSecondNum"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:hint="second contact number"
+        android:textColorHint="#ffffff"
+        android:textColor="#fff"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+    <EditText
+        android:id="@+id/txtThirdNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ems="10"
+        android:inputType="number"
+        android:textColorHint="#ffffff"
+        android:textColor="#fff"
+        android:hint="third contact number" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#e74c3c"
+        android:text="Submit" />
+
+</LinearLayout>
+

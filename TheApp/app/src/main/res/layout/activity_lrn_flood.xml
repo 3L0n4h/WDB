@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:text="What to do before the flood: "
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:textColor="#fff"
+                android:paddingLeft="10dp"
+                android:text="• Be alert. Monitor the news and your surroundings.
+\n\n
+• Gather food supplies, medications, flashlight.
+\n\n
+• Put important documents to safety and prepare to evacuate.
+\n\n
+• Go to safe areas if a warning is issued.
+\n\n
+• Protect your property"
+
+                android:textAlignment="textStart"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context="hci.baranggayapp.Report"
+android:background="#424242"
+android:orientation="vertical"
+    android:paddingLeft="15dp"
+    >
+
+<!-- TODO: Update blank fragment layout -->
+
+
+            <ImageView
+                android:id="@+id/imgEwan"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/medical" />
+
+
+    <Button
+        android:id="@+id/btnWLoad"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#E74C3C"
+        android:text="Alert your contact that you are in danger"
+        android:textColor="#fff" />
+
+
+    <Button
+            android:id="@+id/btnndrrmc"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="15dp"
+            android:background="#E74C3C"
+            android:text="NDRRMC"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnpolice"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#E74C3C"
+            android:text="Police"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btnfirestation"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#E74C3C"
+            android:text="Firestation"
+            android:textColor="#fff" />
+
+        <Button
+            android:id="@+id/btncoastguard"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="15dp"
+            android:background="#E74C3C"
+            android:text="Coast Guard"
+            android:textColor="#fff" />
+
+
+    <Button
+        android:id="@+id/btnredcross"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="#E74C3C"
+        android:text="Red Cross"
+        android:textColor="#fff" />
+
+
+</LinearLayout>

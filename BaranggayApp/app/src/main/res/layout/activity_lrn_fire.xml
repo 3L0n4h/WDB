@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:padding="10dp"
+                android:textColor="#fff"
+                android:text="What to do when you catches fire"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textColor="#fff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:paddingLeft="10dp"
+                android:text="• Stop, drop, and roll if it's you. If it's someone else, smother the flameswith a wet towel if you have one, a dry one if not, and put the flameout.
+\n\n
+• Get them down if the person is panicking, you may need to use a leg sweep, but get the person on the ground and the fire out.
+\n\n
+• Call Bureau of Fire Protection
+\n\n
+• If you can, gently remove the burned clothing. If it is sticks to the skin,  keep it cool and wet and leave it alone, then wrap the wounds in a
+clean sheet.
+\n\n
+• Watch for shock. If the person is uncommunicative, delirious, or looks pale, they may be in shock. Use blankets to warm them and elevate their legs to bring blood back to their head."
+                android:textAlignment="textStart"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
